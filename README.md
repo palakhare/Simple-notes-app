@@ -9,6 +9,12 @@ Flutter: This is Google’s UI toolkit for building natively compiled apps for m
 Firebase: A platform by Google providing backend services like authentication, database, analytics, etc.
 Firebase Cloud Firestore: A NoSQL cloud database to store and sync data in real-time.
 
+lib/
+│
+├── main.dart          # Initializes Firebase and sets home to NotesPage
+└── notes_page.dart    # UI and Logic for adding, viewing, and deleting notes
+
+
 Key Dependencies
 firebase_core: Required to initialize Firebase in your Flutter app.
 cloud_firestore: Allows access to Firestore database from Flutter.
