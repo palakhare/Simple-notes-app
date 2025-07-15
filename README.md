@@ -14,12 +14,10 @@ Firebase Cloud Firestore: A NoSQL cloud database to store and sync data in real-
 
 lib/
 |
-│
-|
-├── main.dart          # Initializes Firebase and sets home to NotesPage
-|
-└── notes_page.dart    # UI and Logic for adding, viewing, and deleting notes
 
+├── main.dart          # Initializes Firebase and sets home to NotesPage
+
+└── notes_page.dart    # UI and Logic for adding, viewing, and deleting notes
 
 
 
